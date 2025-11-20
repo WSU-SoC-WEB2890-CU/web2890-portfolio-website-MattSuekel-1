@@ -1,10 +1,11 @@
 import '../style.css'
 
 
-import { createIcons, CircleChevronRight } from 'lucide';
+import { createIcons, CircleChevronRight, Copyright } from 'lucide';
 
 createIcons({
     icons: {
-        CircleChevronRight
+        CircleChevronRight,
+        Copyright,
     }
 });
