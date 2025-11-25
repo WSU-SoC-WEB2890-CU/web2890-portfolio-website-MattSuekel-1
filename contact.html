@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Contact Matthew Suekel</title>
+  </head>
+  <body class="bg-black text-white">
+    <header class="absolute top-0 left-0 w-full p-6 z-50">
+      <nav>
+        <a href="/" class="group inline-flex items-center gap-4 text-black hover:text-secondary transition-colors duration-300">
+          <div class="transition-transform duration-300 group-hover:-translate-x-1">
+            <i data-lucide="circle-chevron-left" class="size-8 sm:size-10"></i>
+          </div>
+          <span class="font-script text-4xl sm:text-5xl pb-3">go back</span>
+        </a>
+      </nav>
+    </header>
+
+    <main class="min-h-screen w-full overflow-x-hidden bg-primary flex flex-col justify-center items-center py-20">
+      <h1 class="font-display text-black text-6xl sm:text-7xl lg:text-9xl mb-20">contact</h1>
+      <section class="w-full max-w-2xl px-6">
+        <form class="flex flex-col gap-10">
+          <div class="flex flex-col gap-4">
+            <label for="name" class="font-sans text-2xl uppercase text-black">
+              name
+            </label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              placeholder="name..." 
+              class="w-full rounded-full bg-black px-6 py-4 font-sans text-white placeholder-white/50 shadow-lg focus:outline-none focus:ring-2 focus:ring-secondary/50"
+            />
+          </div>
+          
+          <div class="flex flex-col gap-4">
+            <label for="message" class="font-sans text-2xl uppercase text-black">
+              message
+            </label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="6"
+              placeholder="message..." 
+              class="w-full resize-none rounded-3xl bg-black px-6 py-4 font-sans text-white placeholder-white/50 shadow-lg focus:outline-none focus:ring-2 focus:ring-secondary/50"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="group flex items-center gap-4 self-end text-secondary hover:text-black">
+            <span class="font-script text-4xl">submit</span>
+            <div class="p-2 transition-transform group-hover:translate-x-1">
+              <i data-lucide="circle-chevron-right" class="size-10"></i>
+            </div>
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <script type="module" src="/src/javascript/main.js"></script>
+  </body>
+</html> 
