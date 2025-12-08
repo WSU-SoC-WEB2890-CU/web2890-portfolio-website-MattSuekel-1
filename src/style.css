@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import "tailwindcss";
+@layer theme;
+
+
+@font-face {
+  font-family: 'FieldGothic-54';
+  font-display: swap;
+  src: url("./font/FieldGothicTEST-No.54.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FieldGothic-85';
+  font-display: swap;
+  src: url("./font/FieldGothicTEST-No.85.woff") format("woff"); 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FieldGothic-64';
+  font-display: swap;
+  src: url("./font/FieldGothicTEST-No.64.woff") format("woff"); 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FieldGothic-62';
+  font-display: swap;
+  src: url("./font/FieldGothicTEST-No.62.woff") format("woff"); 
+  font-style: normal;
+}
+
+@theme {
+  --font-script: 'Fasthand', cursive;
+  --font-display: 'FieldGothic-85', sans-serif;
+  --font-serif: 'FieldGothic-54', serif;
+  --font-sans: 'FieldGothic-64', sans-serif;
+  --font-sansthin: 'FieldGothic-62', sans-serif;
+  --breakpoint-3xl: 120rem;
+
+  --color-primary: #f4fd86;
+  --color-secondary: #167976;
+
+}
